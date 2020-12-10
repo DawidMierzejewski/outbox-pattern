@@ -18,4 +18,5 @@ This implementation of outbox pattern can be successfully used in a production e
 
 ### Requirements
 
-.Net Core 3.1, but it can be downgraded. A job responsible for sending was implemented as a .net core background service, but you can program your own job implementation easily (please, take a look at Outbox.Tests Project)
+.Net Core 3.1, but it can be downgraded. A job responsible for sending was implemented as a .net core background service.
+Moreover, you can program your own job implementation easily (please, take a look at Outbox.Tests Project)
